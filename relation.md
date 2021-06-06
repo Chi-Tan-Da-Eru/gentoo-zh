@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2021-06-04 14:25:08 CST)
+(The last generation time: 2021-06-07 07:27:42 CST)
 
 ### Packages
 
@@ -24,7 +24,7 @@
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/dvp                                   | 1.2.1                  |            | http://kaufmann.no/roland/dvorak/index.html                                             | The kbd keymap for Programmer Dvorak.
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-i18n/fcitx5-chinese-addons                 | 5.0.6                  |            | https://github.com/fcitx/fcitx5-chinese-addons                                          | Addons related to Chinese, including IME previous bundled inside fcitx4.
+ app-i18n/fcitx5-chinese-addons                 | 5.0.6-r1               |            | https://github.com/fcitx/fcitx5-chinese-addons                                          | Addons related to Chinese, including IME previous bundled inside fcitx4.
                                                 | 9999                   |            |                                                                                         |
    app-i18n/fcitx5-qt                           | 5.0.6                  |  D, RD     | https://github.com/fcitx/fcitx5-qt                                                      | Qt library and IM module for fcitx5
                                                 | 9999                   |            |                                                                                         |
@@ -46,7 +46,7 @@
  app-i18n/fcitx5-skk                            | 5.0.6                  |            | https://fcitx-im.org/                                                                   | Japanese SKK input engine for Fcitx5
                                                 | 9999                   |            |                                                                                         |
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-i18n/gcin                                  | 2.9.0-r1               |            | http://hyperrate.com/dir.php?eid=67                                                     | Another Traditional Chinese IM.
+ app-i18n/gcin                                  | 2.9.0-r2               |            | http://hyperrate.com/dir.php?eid=67                                                     | Another Traditional Chinese IM.
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/ibus-rime                             | 9999                   |            | http://code.google.com/p/rimeime/                                                       | Rime Input Method Engine for IBus Framework
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -59,7 +59,7 @@
  app-i18n/scim-chrasis                          | 9999.0.0.1             |            | http://chrasis.berlios.de/                                                              | Chrasis SCIM binding for chinese character recognition.
    dev-libs/libchrasis                          | 9999.0.1.1             |  D, RD     | http://chrasis.berlios.de                                                               | Library for Chinese Character Recognition As-Is
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-i18n/sogoupinyin                           | 2.2.0.0102             |            | http://pinyin.sogou.com/linux/                                                          | Sogou Pinyin input method.
+ app-i18n/sogoupinyin                           | 2.4.0.3469             |            | http://pinyin.sogou.com/linux/                                                          | Sogou Pinyin input method.
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/zh-autoconvert                        | 0.3.16-r3              |            | http://packages.debian.org/stable/text/zh-autoconvert.html                              | Chinese HZ/GB/BIG5/UNI/UTF7/UTF8 encodings auto-converter
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
