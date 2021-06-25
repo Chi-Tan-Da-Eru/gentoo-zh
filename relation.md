@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2021-06-16 21:36:34 CST)
+(The last generation time: 2021-06-25 14:57:07 CST)
 
 ### Packages
 
@@ -16,11 +16,11 @@
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/typora                             | 0.9.98                 |            | https://typora.io                                                                       | Typora will give you a seamless experience as both a reader and a writer.
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-editors/visual-studio-code-bin             | 1.57.0                 |            | https://code.visualstudio.com                                                           | Multiplatform Visual Studio Code from Microsoft
+ app-editors/visual-studio-code-bin             | 1.57.1                 |            | https://code.visualstudio.com                                                           | Multiplatform Visual Studio Code from Microsoft
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/winetricks-zh                    | 9999                   |            | http://winetricks.org                                                                   | winetricks fork for chinese to install QQ
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-i18n/dvp                                   | 1.2.1                  |            | http://kaufmann.no/roland/dvorak/index.html                                             | The kbd keymap for Programmer Dvorak.
+ app-i18n/dvp                                   | 1.2.1-r1               |            | http://kaufmann.no/roland/dvorak/index.html                                             | The kbd keymap for Programmer Dvorak.
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/fcitx5-chinese-addons                 | 5.0.6-r1               |            | https://github.com/fcitx/fcitx5-chinese-addons                                          | Addons related to Chinese, including IME previous bundled inside fcitx4.
                                                 | 9999                   |            |                                                                                         |
@@ -48,7 +48,7 @@
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/ibus-rime                             | 9999                   |            | http://code.google.com/p/rimeime/                                                       | Rime Input Method Engine for IBus Framework
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-i18n/libgooglepinyin                       | 0.1.2                  |            | http://libgooglepinyin.googlecode.com/                                                  | A fork from google pinyin on android
+ app-i18n/libgooglepinyin                       | 0.1.2-r1               |            | http://libgooglepinyin.googlecode.com/                                                  | A fork from google pinyin on android
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/lunar                                 | 2.2-r5                 |            | https://packages.debian.org/unstable/utils/lunar                                        | Chinese Lunar Calendar conversion utility
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -59,7 +59,7 @@
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/sogoupinyin                           | 2.4.0.3469             |            | http://pinyin.sogou.com/linux/                                                          | Sogou Pinyin input method.
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-i18n/zh-autoconvert                        | 0.3.16-r3              |            | http://packages.debian.org/stable/text/zh-autoconvert.html                              | Chinese HZ/GB/BIG5/UNI/UTF7/UTF8 encodings auto-converter
+ app-i18n/zh-autoconvert                        | 0.3.16-r3              |            | https://packages.debian.org/stable/source/zh-autoconvert                                | Chinese HZ/GB/BIG5/UNI/UTF7/UTF8 encodings auto-converter
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-misc/bcompare                              | 4.3.7.25118            |            | http://www.scootersoftware.com/                                                         | Beyond Compare -- Compare, sync, and merge files and folders
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -74,8 +74,8 @@
  app-misc/spark                                 | 1.0.1                  |            | http://zachholman.com/spark/                                                            | ▁▂▃▅▂▇ in your shell
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-mobilephone/scrcpy                         | 1.14                   |            | https://blog.rom1v.com/2018/03/introducing-scrcpy/                                      | Display and control your Android device
-                                                | 1.16                   |            |                                                                                         |
                                                 | 1.17                   |            |                                                                                         |
+                                                | 1.18                   |            |                                                                                         |
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-office/wps-office                          | 11.1.0.10161           |            | http://www.wps.cn/product/wpslinux/                                                     | WPS Office is an office productivity suite, Here is the Chinese version
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -85,8 +85,6 @@
    app-shells/gitstatus                         | 1.5.2                  |  D, RD     | https://github.com/romkatv/gitstatus                                                    | Git status for Bash and Zsh prompt
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-text/groff-utf8                            | 0-r1                   |            | http://www.haible.de/bruno/packages-groff-utf8.html                                     | GNU groff wrapper allowing UTF-8 input
-------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-text/srecite                               | 0.6.2                  |            | http://srecite.sourceforge.net                                                          | Smart Reciting
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-text/wiznote                               | 2.1.14                 |            | http://www.wiz.cn/index.html                                                            | WizNote lets you capture anything you might to remember: create text notes, clip content from the web, snap photos and have all of these notes avaliable you on any device.
                                                 | 2.4.0                  |            |                                                                                         |
@@ -220,9 +218,6 @@
  net-misc/baidupcs-go                           | 3.6.2                  |            | https://github.com/felixonmars/BaiduPCS-Go                                              | The terminal utility for Baidu Network Disk (Golang Version).
                                                 | 9999                   |            |                                                                                         |
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- net-misc/libipmsg                              | 0.1.6                  |            | http://libipmsg.sourceforge.jp                                                          | libipmsg - IP Messenger library for UNIX
-                                                | 0.1.7                  |            |                                                                                         |
-------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/networkmanager-l2tp                   | 9999                   |            | http://www.gnome.org/projects/NetworkManager/                                           | NetworkManager L2TP plugin
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/nomachine-enterprise-client           | 7.6.2.1                |            | https://www.nomachine.com                                                               | NoMachine Enterprise Client
@@ -259,13 +254,12 @@
                                                 | 99999                  |            |                                                                                         |
    net-proxy/qv2ray                             | 2.6.3-r2               |  D, RD     | https://qv2ray.github.io/                                                               | Qt GUI fontend of v2ray
                                                 | 99999                  |            |                                                                                         |
-     net-proxy/v2ray                            | 4.38.3                 | RD         | https://github.com/v2fly/v2ray-core                                                     | A platform for building proxies to bypass network restrictions.
-                                                | 4.39.2                 |            |                                                                                         |
-       dev-libs/v2ray-domain-list-community     | 4.39.2_p20210526032424 | RD         | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
+     net-proxy/v2ray                            | 4.40.1                 | RD         | https://github.com/v2fly/v2ray-core                                                     | A platform for building proxies to bypass network restrictions.
+       dev-libs/v2ray-domain-list-community     | 4.39.2_p20210621183458 | RD         | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
                                                 | 9999                   |            |                                                                                         |
-       dev-libs/v2ray-domain-list-community-bin | 4.39.2_p20210526032424 | RD         | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
+       dev-libs/v2ray-domain-list-community-bin | 4.39.2_p20210621183458 | RD         | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
                                                 | 9999                   |            |                                                                                         |
-       dev-libs/v2ray-geoip-bin                 | 4.39.2_p202105270041   | RD         | https://github.com/v2fly/geoip                                                          | GeoIP for V2Ray.
+       dev-libs/v2ray-geoip-bin                 | 4.39.2_p202106170022   | RD         | https://github.com/v2fly/geoip                                                          | GeoIP for V2Ray.
                                                 | 9999                   |            |                                                                                         |
      net-proxy/v2ray-bin                        | 4.34.0                 | RD         | https://www.v2fly.org                                                                   | A platform for building proxies to bypass network restrictions.
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -295,7 +289,7 @@
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  sys-apps/yaourt                                | 1.2.2                  |            | http://www.archlinux.fr/yaourt-en/                                                      | A pacman wrapper with extended features and AUR support
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- sys-devel/ucc                                  | 1.1-r0                 |            | http://sourceforge.net/projects/ucc                                                     | UCC is an ANSI C Compiler
+ sys-devel/ucc                                  | 1.1-r0                 |            | https://sourceforge.net/projects/ucc                                                    | UCC is an ANSI C Compiler
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  sys-fs/coda                                    | 7.0.5                  |            | http://www.coda.cs.cmu.edu/                                                             | Coda is an advanced network file system, similar to NFS
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -307,13 +301,17 @@
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  sys-libs/elog-functions                        | 0.0.2                  |            | http://xochitl.matem.unam.mx/~canek/gentoo-systemd-only/index.html                      | Compatibility functions for the log eclass functions of OpenRC
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- sys-libs/libixp                                | 9999                   |            | http://libs.suckless.org/                                                               | Standalone client/server 9P library
+ sys-libs/libixp                                | 0.5_p20110208-r3       |            | https://libs.suckless.org/deprecated/libixp                                             | A stand-alone client/server 9P library including ixpc client
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                          | 3-r6                   |            |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/xanmod-cacule-hybrid              | 5.12.10                | RD         | https://github.com/HougeLangley/customkernel                                            | Xanmod-Cacule, cjktty, uksm patchset for main kernel tree
-                                                | 5.12.10-r1             |            |                                                                                         |
-   sys-kernel/xanmod-hybrid                     | 5.12.10                | RD         | https://github.com/HougeLangley/customkernel                                            | Xanmod, cjktty, uksm patchset for main kernel tree
-                                                | 5.12.10-r1             |            |                                                                                         |
+   sys-kernel/linux-tkg-sources                 | 5.12.11                | RD         | https://github.com/Frogging-Family/linux-tkg                                            | Linux-TkG, cjktty, uksm patchset for main kernel tree
+                                                | 5.12.11-r1             |            |                                                                                         |
+                                                | 5.12.12                |            |                                                                                         |
+                                                | 5.12.13                |            |                                                                                         |
+   sys-kernel/xanmod-hybrid                     | 5.12.10-r2             | RD         | https://github.com/HougeLangley/customkernel                                            | Xanmod, Xanmod-CaCule, cjktty, uksm patchset for main kernel tree
+                                                | 5.12.11                |            |                                                                                         |
+                                                | 5.12.12                |            |                                                                                         |
+                                                | 5.12.13                |            |                                                                                         |
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  www-servers/darkhttpd                          | 1.13                   |            | http://unix4lyfe.org/darkhttpd/                                                         | A small, static webserver
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
