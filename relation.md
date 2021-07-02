@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2021-06-25 14:57:07 CST)
+(The last generation time: 2021-07-02 21:50:33 CST)
 
 ### Packages
 
@@ -114,7 +114,7 @@
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-php/pecl-solr                              | 2.4.0                  |            |                                                                                         | Solr client
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- dev-python/conda                               | 4.10.1                 |            | https://conda.io/                                                                       | OS-agnostic, system-level binary package manager and ecosystem
+ dev-python/conda                               | 4.10.3                 |            | https://conda.io/                                                                       | OS-agnostic, system-level binary package manager and ecosystem
    dev-python/conda-package-handling            | 1.7.3                  |  D, RD     | https://github.com/conda/conda-package-handling                                         | Create and extract conda packages of various formats
    dev-python/pycosat                           | 0.6.3                  |  D, RD     | https://github.com/ContinuumIO/pycosat                                                  | Python bindings to picosat (a SAT solver)
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -237,7 +237,7 @@
                                                 | 2.8                    |            |                                                                                         |
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-p2p/qbittorrent-enhanced                   | 4.3.1.11               |            | https://github.com/c0re100/qBittorrent-Enhanced-Edition                                 | qBittorrent Enhanced, based on qBittorrent
-                                                | 4.3.5.10               |            |                                                                                         |
+                                                | 4.3.6.10               |            |                                                                                         |
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-print/epson-inkjet-printer_201207w         | 1.0.0                  |            | http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX                              | Epson printer driver (L110, L210, L300, L350, L355, L550, L555)
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -304,14 +304,8 @@
  sys-libs/libixp                                | 0.5_p20110208-r3       |            | https://libs.suckless.org/deprecated/libixp                                             | A stand-alone client/server 9P library including ixpc client
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                          | 3-r6                   |            |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/linux-tkg-sources                 | 5.12.11                | RD         | https://github.com/Frogging-Family/linux-tkg                                            | Linux-TkG, cjktty, uksm patchset for main kernel tree
-                                                | 5.12.11-r1             |            |                                                                                         |
-                                                | 5.12.12                |            |                                                                                         |
-                                                | 5.12.13                |            |                                                                                         |
-   sys-kernel/xanmod-hybrid                     | 5.12.10-r2             | RD         | https://github.com/HougeLangley/customkernel                                            | Xanmod, Xanmod-CaCule, cjktty, uksm patchset for main kernel tree
-                                                | 5.12.11                |            |                                                                                         |
-                                                | 5.12.12                |            |                                                                                         |
-                                                | 5.12.13                |            |                                                                                         |
+   sys-kernel/linux-tkg-sources                 | 5.12.14                | RD         | https://github.com/Frogging-Family/linux-tkg                                            | Linux-TkG, cjktty, uksm patchset for main kernel tree
+   sys-kernel/xanmod-hybrid                     | 5.13.0                 | RD         | https://github.com/HougeLangley/customkernel                                            | Xanmod, Xanmod-CaCule, cjktty, uksm patchset for main kernel tree
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  www-servers/darkhttpd                          | 1.13                   |            | http://unix4lyfe.org/darkhttpd/                                                         | A small, static webserver
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
