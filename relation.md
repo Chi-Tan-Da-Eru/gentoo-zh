@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2021-07-02 21:50:33 CST)
+(The last generation time: 2021-07-03 14:14:16 CST)
 
 ### Packages
 
@@ -26,7 +26,7 @@
                                                 | 9999                   |            |                                                                                         |
    app-i18n/fcitx5-qt                           | 5.0.6                  |  D, RD     | https://github.com/fcitx/fcitx5-qt                                                      | Qt library and IM module for fcitx5
                                                 | 9999                   |            |                                                                                         |
-     app-i18n/fcitx5                            | 5.0.8-r1               |  D, RD     | https://fcitx-im.org/                                                                   | Fcitx5 Next generation of fcitx
+     app-i18n/fcitx5                            | 5.0.8-r2               |  D, RD     | https://fcitx-im.org/                                                                   | Fcitx5 Next generation of fcitx
                                                 | 9999                   |            |                                                                                         |
        x11-libs/xcb-imdkit                      | 1.0.3                  |  D, RD     | https://github.com/fcitx/xcb-imdkit                                                     | Input method development support for xcb
    app-i18n/libime                              | 1.0.7                  |  D, RD     | https://fcitx-im.org/                                                                   | Fcitx5 Next generation of fcitx
@@ -306,6 +306,7 @@
  virtual/linux-sources                          | 3-r6                   |            |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/linux-tkg-sources                 | 5.12.14                | RD         | https://github.com/Frogging-Family/linux-tkg                                            | Linux-TkG, cjktty, uksm patchset for main kernel tree
    sys-kernel/xanmod-hybrid                     | 5.13.0                 | RD         | https://github.com/HougeLangley/customkernel                                            | Xanmod, Xanmod-CaCule, cjktty, uksm patchset for main kernel tree
+                                                | 5.13.0-r1              |            |                                                                                         |
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  www-servers/darkhttpd                          | 1.13                   |            | http://unix4lyfe.org/darkhttpd/                                                         | A small, static webserver
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
