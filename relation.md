@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2021-07-06 10:47:30 CST)
+(The last generation time: 2021-07-09 16:53:14 CST)
 
 ### Packages
 
@@ -16,7 +16,7 @@
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/typora                             | 0.9.98                 |            | https://typora.io                                                                       | Typora will give you a seamless experience as both a reader and a writer.
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-editors/visual-studio-code-bin             | 1.57.1                 |            | https://code.visualstudio.com                                                           | Multiplatform Visual Studio Code from Microsoft
+ app-editors/visual-studio-code-bin             | 1.57.1-r1              |            | https://code.visualstudio.com                                                           | Multiplatform Visual Studio Code from Microsoft
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/winetricks-zh                    | 9999                   |            | http://winetricks.org                                                                   | winetricks fork for chinese to install QQ
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -111,8 +111,6 @@
                                                 | 1.6.0                  |            |                                                                                         |
                                                 | 9999                   |            |                                                                                         |
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- dev-php/pecl-solr                              | 2.4.0                  |            |                                                                                         | Solr client
-------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/conda                               | 4.10.3                 |            | https://conda.io/                                                                       | OS-agnostic, system-level binary package manager and ecosystem
    dev-python/conda-package-handling            | 1.7.3                  |  D, RD     | https://github.com/conda/conda-package-handling                                         | Create and extract conda packages of various formats
    dev-python/pycosat                           | 0.6.3                  |  D, RD     | https://github.com/ContinuumIO/pycosat                                                  | Python bindings to picosat (a SAT solver)
@@ -196,6 +194,8 @@
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-im/avim                                    | 0.1                    |            | http://avim.avplayer.org                                                                | avim is a secure IM build around RSA
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
+ net-im/dingtalk                                | 0.9.0.131              |            | https://gov.dingtalk.com                                                                | dingtalk
+------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-im/freetalk                                | 4.1                    |            | http://www.gnu.org/software/freetalk/                                                   | Console based Jabber client
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-im/telegram-purple                         | 1.3.0                  |            | https://github.com/majn/                                                                | Libpurple (Pidgin) plugin for using a Telegram account
@@ -229,8 +229,8 @@
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/you-get                               | 9999                   |            | http://www.soimort.org/you-get                                                          | A video downloader for YouTube, Youku, niconico and a few other sites
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- net-p2p/amule-dlp                              | 9999                   | RD         | https://github.com/persmule/amule-dlp                                                   | aMule with DLP patch, the all-platform eMule p2p client
-   net-p2p/amule-dlp-antileech                  | 9999                   | RD         | https://github.com/persmule/amule-dlp.antileech                                         | , dynamic DLP library for amule-dlp
+ net-p2p/amule-dlp-antileech                    | 9999                   |            | https://github.com/persmule/amule-dlp.antileech                                         | , dynamic DLP library for amule-dlp
+   net-p2p/amule-dlp                            | 9999                   | RD         | https://github.com/persmule/amule-dlp                                                   | aMule with DLP patch, the all-platform eMule p2p client
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-p2p/n2n                                    | 2.6                    |            | http://www.ntop.org/n2n/                                                                | A Layer Two Peer-to-Peer VPN
                                                 | 2.8                    |            |                                                                                         |
@@ -242,8 +242,8 @@
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/Xray                                 | 1.4.2                  |            | https://github.com/XTLS/Xray-core                                                       | Xray, Penetrates Everything.
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash                                | 1.5.0                  |            | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
-                                                | 1.6.0                  |            |                                                                                         |
+ net-proxy/clash                                | 1.6.0                  |            | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
+                                                | 1.6.5                  |            |                                                                                         |
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/lantern-bin                          | 3.0.4                  |            | https://github.com/getlantern/lantern                                                   | A free desktop application that delivers fast, reliable and secure access to the open Internet for users in censored regions.
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -303,9 +303,11 @@
  sys-libs/libixp                                | 0.5_p20110208-r3       |            | https://libs.suckless.org/deprecated/libixp                                             | A stand-alone client/server 9P library including ixpc client
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                          | 3-r6                   |            |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/linux-tkg-sources                 | 5.12.14                | RD         | https://github.com/Frogging-Family/linux-tkg                                            | Linux-TkG, cjktty, uksm patchset for main kernel tree
+   sys-kernel/linux-tkg-sources                 | 5.13.0                 | RD         | https://github.com/Frogging-Family/linux-tkg                                            | Linux-TkG, cjktty, uksm patchset for main kernel tree
+                                                | 5.13.1                 |            |                                                                                         |
    sys-kernel/xanmod-hybrid                     | 5.13.0                 | RD         | https://github.com/HougeLangley/customkernel                                            | Xanmod, Xanmod-CaCule, cjktty, uksm patchset for main kernel tree
                                                 | 5.13.0-r1              |            |                                                                                         |
+                                                | 5.13.1                 |            |                                                                                         |
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  www-servers/darkhttpd                          | 1.13                   |            | http://unix4lyfe.org/darkhttpd/                                                         | A small, static webserver
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
