@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2021-07-11 09:57:48 CST)
+(The last generation time: 2021-07-11 16:19:06 CST)
 
 ### Packages
 
@@ -118,7 +118,10 @@
  dev-ruby/mruby                                 | 1.0.0                  |            | https://github.com/mruby/mruby                                                          | mruby is the lightweight implementation of the Ruby language complying to (part of) the ISO standard.
                                                 | 9999                   |            |                                                                                         |
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- dev-util/arch-install-scripts                  | 20                     |            | https://projects.archlinux.org/arch-install-scripts.git/                                | Arch Linux install tools (pacstrap, genfstab, arch-chroot)
+ dev-util/arch-install-scripts                  | 24                     |            | https://projects.archlinux.org/arch-install-scripts.git/                                | Arch Linux install tools (pacstrap, genfstab, arch-chroot)
+   sys-apps/pacman                              | 6.0.0                  |  D, RD     | https://archlinux.org/pacman/                                                           | Archlinux's binary package manager
+     app-crypt/archlinux-keyring                | 20210616               |  D, RD     | https://gitlab.archlinux.org/archlinux/archlinux-keyring                                | GnuPG keyring of Archlinux developer keys
+     sys-apps/pacman-mirrorlist                 | 20210509               | RD         | https://archlinux.org/mirrorlist/                                                       | Repository list for Archlinux's binary package manager
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/bom-utils                             | 1.0                    |            | https://code.google.com/p/utf-bom-utils                                                 | Small programs to add or remove the BOM mark in UTF8 files
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -171,7 +174,7 @@
  media-plugins/osdlyrics                        | 9999                   |            | https://github.com/osdlyrics/osdlyrics                                                  | Standalone lyrics fetcher/displayer (windowed and OSD mode).
                                                 | 20200403-r1            |            |                                                                                         |
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/feeluown                           | 3.7.9                  |            | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
+ media-sound/feeluown                           | 3.7.9-r1               |            | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
    dev-python/fuo-kuwo                          | 0.1.4                  |  D         | https://github.com/feeluown/feeluown-kuwo                                               | kuwo music support for feeluown
    dev-python/fuo-local                         | 0.2.1-r1               |  D         | https://github.com/feeluown/feeluown-local                                              | local music support for feeluown
    dev-python/fuo-netease                       | 0.7.1                  |  D         | https://github.com/feeluown/feeluown-netease                                            | netease cloud music support for feeluown
