@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2021-07-13 17:40:52 CST)
+(The last generation time: 2021-07-14 12:45:41 CST)
 
 ### Packages
 
@@ -133,7 +133,7 @@
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/jetbrains-toolbox                     | 1.20.7939              |            | https://www.jetbrains.com/toolbox/app                                                   | Manage all your JetBrains Projects and Tools
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- dev-util/rust-analyzer                         | 20200928               |            | https://github.com/rust-analyzer/rust-analyzer                                          | An experimental Rust compiler front-end for IDEs
+ dev-util/rust-analyzer                         | 20210712               |            | https://github.com/rust-analyzer/rust-analyzer                                          | An experimental Rust compiler front-end for IDEs
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/v2ray-geoip-generator                 | 9999                   |            | https://github.com/v2fly/geoip                                                          | GeoIP generator for V2Ray.
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -290,6 +290,11 @@
  sys-apps/mdp                                   | 9999                   |            | https://github.com/visit1985/mdp                                                        | A command-line based markdown presentation tool
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  sys-apps/yaourt                                | 1.2.2                  |            | http://www.archlinux.fr/yaourt-en/                                                      | A pacman wrapper with extended features and AUR support
+------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
+ sys-apps/zypper                                | 1.14.47                |            | https://en.opensuse.org/Portal:Zypper                                                   | World's most powerful command line package manager
+   sys-libs/libzypp                             | 17.27.0                |  D, BD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | ZYpp Package Management library
+     sys-libs/libsolv                           | 0.7.19                 |  D, BD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | Library for solving packages and reading repositories
+       app-arch/zchunk                          | 1.1.16                 |  D, BD     | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  sys-devel/ucc                                  | 1.1-r0                 |            | https://sourceforge.net/projects/ucc                                                    | UCC is an ANSI C Compiler
 ------------------------------------------------|------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
